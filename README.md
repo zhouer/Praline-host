@@ -1,6 +1,8 @@
 # Praline-host
 
-praline-host is the host side software works with Praline, a Raspberry Pi based Bitcoin hardware wallet.
+Praline-host is the host-side software works with Praline, a Raspberry Pi based Bitcoin hardware wallet.
+
+![Praline-host](https://raw.githubusercontent.com/zhouer/Praline-host/master/praline-host.png)
 
 ## Requirement
 
@@ -20,6 +22,8 @@ cd Praline-host
 npm install
 npm start
 ```
+
+## Usage
 
 ## License
 
