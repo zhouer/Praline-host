@@ -1,0 +1,30 @@
+{
+  "name": "praline-host",
+  "version": "0.0.7",
+  "description": "Praline Bitcoin hardware wallet",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "electron-rebuild -w serialport",
+    "start": "electron ."
+  },
+  "repository": "https://github.com/zhouer/Praline-host",
+  "keywords": [
+    "Praline",
+    "Bitcoin",
+    "Wallet",
+    "Hardware wallet"
+  ],
+  "author": "zhouer@gmail.com",
+  "license": "MIT",
+  "bin": {
+    "praline": "praline.js"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "^2.3.0",
+    "electron": "~1.6.2",
+    "electron-rebuild": "^1.5.7",
+    "jquery": "^3.2.1",
+    "request": "^2.81.0",
+    "serialport": "^4.0.7"
+  }
+}

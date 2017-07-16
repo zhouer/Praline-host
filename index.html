@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Praline</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			div.block {
+				line-height: 150%;
+				margin: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="block">
+			Device: <span id="device"></span><br>
+			Balance: <span id="balance"></span> <button id="refresh" disabled>Refresh</button><br>
+		</div>
+
+		<div class="block">
+			To address: <input type="text" id="address" size="40"><br>
+			Amount: <input type="text" id="amount"><br>
+			Fee: <input type="text" id="fee"><br>
+			<button id="send" disabled>Send</button><br>
+		</div>
+
+		<div class="block">
+			Receiving address: <span id="receiving"></span><br>
+			<button id="generate" disabled>Generate</button><br>
+		</div>
+
+		<div class="block">
+			Private key: <input type="text" id="privkey" size="40"><br>
+			<button id="import" disabled>Import</button>
+		</div>
+	</body>
+	<script src="ui.js"></script>
+</html>
